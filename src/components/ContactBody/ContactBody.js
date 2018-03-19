@@ -23,8 +23,7 @@ export default class ContactBody extends Component {
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value)
-        event.preventDefault()
+        event.preventDefault();
       }
     
 
@@ -36,7 +35,7 @@ export default class ContactBody extends Component {
                 method="POST"
                 >
                     <label className="heading-label" htmlFor="namedInput">
-                        Your name...
+                        *Your name...
                     </label>
                     <br/>
                     <input
@@ -51,7 +50,7 @@ export default class ContactBody extends Component {
                     
                     <br/>
                     <label className="heading-label" htmlFor="emailInput">
-                        Your email...
+                        *Your email...
                     </label>    
                     <br/>
                     <input
@@ -61,6 +60,7 @@ export default class ContactBody extends Component {
                     name="email" 
                     value={this.state.email}
                     onChange={this.handleChange}
+                    required
                     />
                     
                     <br/>
@@ -91,6 +91,10 @@ export default class ContactBody extends Component {
                     rows="5"
                     cols="50"
                     />
+                    <br/>
+                    <span className="required-field">
+                        * required
+                    </span>
                     <br/>
                     <input className="contact-submit-button" type="submit" value="Submit" />
                 </form>

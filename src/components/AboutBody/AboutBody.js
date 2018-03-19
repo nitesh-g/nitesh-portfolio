@@ -15,7 +15,10 @@ export default class AboutBody extends Component {
              <h2>Introduction</h2>   
            <Typist ms={1000}><span className="about-text">Hello, I am {this.props.name}.</span></Typist>
            <p className="about-text">I’m a web developer who is innovative, creative and a proven team player.
-I possess a tech degree in Information Technology from Southern New Hampshire University and have 1 year experience in building, developing and managing websites and applications.</p>
+I possess a tech degree in Information Technology from Southern New Hampshire University and have 1 year experience in building, developing and managing websites and applications.
+<br/>
+I have developed this portfolio website myself using React JS.
+</p>
              <div>
                  <div className="row figure-block">
                      <figure className="col-xs-12 col-lg-6 col-md-6">

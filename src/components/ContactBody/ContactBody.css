@@ -50,5 +50,10 @@
 
 }
 
+.required-field{
+    color:red;
+    font-size: 12px;
+}
+
 .form-style{
 }
