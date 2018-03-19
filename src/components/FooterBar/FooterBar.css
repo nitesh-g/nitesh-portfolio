@@ -1,0 +1,38 @@
+.footerBar-wrapper {
+    padding-top: 5px;
+}
+.footerNav-wrapper {
+    display:flex;
+    font-size: 10px;
+    cursor: pointer;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerLine {
+    /* padding-top: 20px; */
+    margin-bottom: 0px;
+    
+}
+
+.footer-nav-bar {
+
+    color: lightgray;
+}
+.footer-nav-bar:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.footerNav-wrapper > .active {
+    color: gray !important ;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(192, 189, 189);
+    margin-bottom: 40px;
+}

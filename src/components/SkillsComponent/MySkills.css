@@ -1,0 +1,35 @@
+.skill-wrapper{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.skill-title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.idea-tab, .code-tab{
+    text-align: center;
+}
+
+ .icon-gem, .icon-keyboard{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.ideas-heading, .code-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-brand {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ideas-text, .code-text{
+    font-size: 16px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,31 @@
+.nav-bar-wrapper {
+    display: flex;
+    padding: 0px !important;
+    /* position: fixed; */
+    /* right: 119px; */
+    justify-content: flex-end;
+}
+
+.nav-bar-wrapper .nav-bar {
+    /* background-color: #f1f1f1; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-wrapper  .nav-bar:hover {
+    background-color: lightgray;
+    color: blue;
+}
+
+.nav-bar-wrapper .nav-active {
+    background-color: lightgray;
+    color: blue;
+}
+
+.active{
+    color:blue !important;
+}

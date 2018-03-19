@@ -1,0 +1,66 @@
+.work-wrapper {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.work-wrapper .container h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.company-name {
+    color: black;
+    margin: 0px;
+}
+
+.row-wrapper hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.work-job-title{
+    color: gray;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.company-description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: lightslategray;
+    font-size: 16px;
+}
+
+.company-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid gold;
+    padding: 5px 12px 5px 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: black;
+    transition: background 0.5s ease,
+                 padding 0.3s linear;
+}
+
+.company-link:hover{
+    background-color: black;
+    color: gold;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+}
+
+
+.signals-image{
+    width: 90%;
+    height: 270px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    display: table-cell;
+}

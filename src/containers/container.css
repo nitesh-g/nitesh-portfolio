@@ -1,0 +1,23 @@
+.nitesh-img{
+    opacity: 0.9;
+}
+
+.nitesh-img-wrapper{
+    position: relative;
+
+}
+.name-portfolio {
+    position: absolute;
+    top: 62%;
+    z-index: 1;
+    left: 7%;
+    font-size: 60px;
+    font-weight: bold;
+    color: gray;
+}
+.home-intro{
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+.container-wrapper .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.professional-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.certificate{
+    /* height:430px !important; */
+    width:100%
+}
+
+.text-list{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.course-title{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.university-title{
+    font-size: 20px;
+}
