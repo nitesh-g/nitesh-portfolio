@@ -21,14 +21,13 @@ export default class MyWork extends Component {
                                     <a href={work.companyURL} target="_blank" className="company-link">Visit Website</a>
                                 </div>
                                 <div className="col-xs-12 col-md-6 col-lg-6 signal-img-wrapper">
-                                    <img className="signals-image" src={require("../../assets/Signals.png")} alt="signals-img"/>
+                                    <img className="signals-image" src={require(`../../assets/${work.companyImg}`)} alt="signals-img"/>
                                 </div>
                             </div>    
                             <hr/>          
                         </div>
                         )
                     }
-
                 </div>
                 
             </div>
